@@ -369,16 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7472216307bdb4c96e6a1815e782a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelCount: 10
-  _beam: {fileID: 3785309914188797310, guid: af61bbfce1e0a374a874553700b2fe7c, type: 3}
-  _startPlatform: {fileID: 3926722165469980777, guid: 0a5597f3aa84eab4aa7deaff0783b96c, type: 3}
-  _platforms:
-  - {fileID: 878892902688237982, guid: fe62a121b4c057147ac992f15a76a539, type: 3}
-  - {fileID: 4865110705095173605, guid: 77bbcb18eadb69549926131db5594a16, type: 3}
-  - {fileID: 8528641721070162485, guid: 37c7cba4ca6179f429e2427eb597d96a, type: 3}
-  - {fileID: 7031512585117059310, guid: d07ade52fb88d68408005b98a08b1a60, type: 3}
-  - {fileID: -2862234823511939551, guid: c31ed4eeece79174f9b7f47d92d74266, type: 3}
-  _endPlatform: {fileID: 7305445110129385246, guid: b5194a794e9ceb54d8631835aaa6e98d, type: 3}
+  _towerConfig: {fileID: 11400000, guid: 4993a0d1c854cbd4ba97149d092c7a88, type: 2}
 --- !u!54 &1186530402
 Rigidbody:
   m_ObjectHideFlags: 0
