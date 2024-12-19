@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BallTracker : MonoBehaviour
@@ -14,7 +12,7 @@ public class BallTracker : MonoBehaviour
 
     private void Start()
     {
-        _ball= FindObjectOfType<Ball>();
+        _ball = FindObjectOfType<Ball>();
         _beam = FindObjectOfType<Beam>();
 
         TrackBall();
@@ -22,7 +20,7 @@ public class BallTracker : MonoBehaviour
 
     private void Update()
     {
-        if(_ball.transform.position.y < _lowestBallPosition.y)
+        if (_ball.transform.position.y < _lowestBallPosition.y)
         {
             TrackBall();
             _lowestBallPosition = _ball.transform.position;
@@ -31,11 +29,11 @@ public class BallTracker : MonoBehaviour
 
     private void TrackBall()
     {
-        Vector3 beamPosition = _beam.transform.position;
+        var beamPosition = _beam.transform.position;
         beamPosition.y = _ball.transform.position.y;
 
         _cameraPosition = _lowestBallPosition = _ball.transform.position;
-        Vector3 direction = (beamPosition - _ball.transform.position).normalized + _directionOffset;
+        var direction = (beamPosition - _ball.transform.position).normalized + _directionOffset;
         _cameraPosition -= direction * _lenght;
         transform.position = _cameraPosition;
         transform.LookAt(_ball.transform);

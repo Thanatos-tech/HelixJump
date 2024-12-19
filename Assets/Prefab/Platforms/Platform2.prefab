@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1696903804454028424}
   - component: {fileID: 2985843201031200284}
   - component: {fileID: 3165191212434509010}
-  - component: {fileID: 5949965325198397632}
   - component: {fileID: 1669827413654285181}
   - component: {fileID: 1939275757594887970}
   m_Layer: 0
@@ -109,18 +108,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: a41eaeaeeba682340b34df61cc58be2d, type: 3}
---- !u!114 &5949965325198397632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 289950589488379731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1669827413654285181
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -160,6 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fa187b9ede0e14eab45049fa32005c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &1478993300311900955
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,7 +161,6 @@ GameObject:
   - component: {fileID: 6093156273165148681}
   - component: {fileID: 8906532451331824262}
   - component: {fileID: 8347362400820780665}
-  - component: {fileID: 6340969592518982168}
   - component: {fileID: 1774268118041661663}
   - component: {fileID: 8676343224860150657}
   m_Layer: 0
@@ -269,18 +257,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8314571269056883277, guid: 9bc483969b743994099d47fb35877ea6, type: 3}
---- !u!114 &6340969592518982168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478993300311900955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &1774268118041661663
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -320,6 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b824864bd159ba745bd7c9b3b352d30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &3570355759619495032
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +310,6 @@ GameObject:
   - component: {fileID: 7836100234797392478}
   - component: {fileID: 833544860266268482}
   - component: {fileID: 4860417764446376150}
-  - component: {fileID: 1513672641804114575}
   - component: {fileID: 6888637044448017966}
   - component: {fileID: 4946938460682522122}
   m_Layer: 0
@@ -429,18 +406,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: a41eaeaeeba682340b34df61cc58be2d, type: 3}
---- !u!114 &1513672641804114575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3570355759619495032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &6888637044448017966
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -480,6 +445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fa187b9ede0e14eab45049fa32005c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &5045065434549885354
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +459,6 @@ GameObject:
   - component: {fileID: 6771907827254905750}
   - component: {fileID: 9214887103358293822}
   - component: {fileID: 8088437021619615991}
-  - component: {fileID: 7020329189348183975}
   - component: {fileID: 7055397272786132639}
   - component: {fileID: 1538757116014005162}
   m_Layer: 0
@@ -589,18 +555,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8314571269056883277, guid: 9bc483969b743994099d47fb35877ea6, type: 3}
---- !u!114 &7020329189348183975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045065434549885354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &7055397272786132639
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -640,6 +594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b824864bd159ba745bd7c9b3b352d30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &7263497247163386974
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +623,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5139445677104835366}
@@ -689,10 +645,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c809f7e4f9d9344948fcea83f6c681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bounceForce: 50
-  _bounceRadius: 100
-  _sixtyDegSegmentEffect: {fileID: -7282217566046347675, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
-  _ninetyDegSegmentEffect: {fileID: 8694017672996183532, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformSegments:
+  - {fileID: 4946938460682522122}
+  - {fileID: 1939275757594887970}
+  - {fileID: 1538757116014005162}
+  - {fileID: 8676343224860150657}
+  - {fileID: 3427986456749955326}
 --- !u!1 &7658663874515424372
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,6 +728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 0}
+  _platformParent: {fileID: 4865110705095173605}
 --- !u!54 &830714370395242254
 Rigidbody:
   m_ObjectHideFlags: 0

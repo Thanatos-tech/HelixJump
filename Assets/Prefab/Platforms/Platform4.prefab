@@ -77,6 +77,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 0}
+  _platformParent: {fileID: 7031512585117059310}
 --- !u!54 &4533275897808022457
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -116,7 +118,6 @@ GameObject:
   - component: {fileID: 7819831296939071627}
   - component: {fileID: 3204772640982537954}
   - component: {fileID: 259939099798888579}
-  - component: {fileID: 7852658047289386793}
   - component: {fileID: 2931818074551067496}
   - component: {fileID: 2167244464234133198}
   m_Layer: 0
@@ -213,18 +214,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8314571269056883277, guid: 9bc483969b743994099d47fb35877ea6, type: 3}
---- !u!114 &7852658047289386793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840653041527839730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &2931818074551067496
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -264,6 +253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b824864bd159ba745bd7c9b3b352d30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &845087022767267128
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,7 +267,6 @@ GameObject:
   - component: {fileID: 7270970114487419250}
   - component: {fileID: 7641250580481959153}
   - component: {fileID: 2343999245649674518}
-  - component: {fileID: 8901264088786431981}
   - component: {fileID: 8555294809449245326}
   - component: {fileID: 8500288088400682446}
   m_Layer: 0
@@ -373,18 +363,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: a41eaeaeeba682340b34df61cc58be2d, type: 3}
---- !u!114 &8901264088786431981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845087022767267128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &8555294809449245326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -424,6 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fa187b9ede0e14eab45049fa32005c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &2122797251299933221
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +431,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3214642129841332497}
@@ -474,10 +454,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c809f7e4f9d9344948fcea83f6c681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bounceForce: 50
-  _bounceRadius: 100
-  _sixtyDegSegmentEffect: {fileID: -7282217566046347675, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
-  _ninetyDegSegmentEffect: {fileID: 8694017672996183532, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformSegments:
+  - {fileID: 8500288088400682446}
+  - {fileID: 1886175262664160356}
+  - {fileID: 2241996962455399666}
+  - {fileID: 2624015099390874263}
+  - {fileID: 6676189892341744054}
+  - {fileID: 2167244464234133198}
 --- !u!1 &2590362545397536781
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +473,6 @@ GameObject:
   - component: {fileID: 35215659076536710}
   - component: {fileID: 6342065605274342184}
   - component: {fileID: 1220386386225778833}
-  - component: {fileID: 4109858643458029068}
   - component: {fileID: 2073537399147980089}
   - component: {fileID: 6676189892341744054}
   m_Layer: 0
@@ -587,18 +569,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8314571269056883277, guid: 9bc483969b743994099d47fb35877ea6, type: 3}
---- !u!114 &4109858643458029068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2590362545397536781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &2073537399147980089
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -638,6 +608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b824864bd159ba745bd7c9b3b352d30b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: e4fd742c4c1e5874bae2715f9146792c, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &2730469276562129782
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,7 +622,6 @@ GameObject:
   - component: {fileID: 8426269342064616329}
   - component: {fileID: 789025343218853923}
   - component: {fileID: 8190285569172292099}
-  - component: {fileID: 2143221018739117592}
   - component: {fileID: 8558853944465514755}
   - component: {fileID: 1886175262664160356}
   m_Layer: 0
@@ -747,18 +718,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: a41eaeaeeba682340b34df61cc58be2d, type: 3}
---- !u!114 &2143221018739117592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2730469276562129782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &8558853944465514755
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -798,6 +757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fa187b9ede0e14eab45049fa32005c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 5243968186225396115, guid: ea905be277b4a89429dcb2beee22d18d, type: 3}
+  _platformParent: {fileID: 0}
 --- !u!1 &7912533599835419141
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45376c541494e864d9ceae05cbef7e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _particleSystem: {fileID: 0}
+  _platformParent: {fileID: 7031512585117059310}
 --- !u!54 &2896124171618285759
 Rigidbody:
   m_ObjectHideFlags: 0

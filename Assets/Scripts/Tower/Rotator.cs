@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -19,7 +16,7 @@ public class Rotator : MonoBehaviour
     {
         if(Input.touchCount > 0)
         {
-            Touch touch = Input.GetTouch(0);
+            var touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Moved)
             {
                 float torque = touch.deltaPosition.x * Time.deltaTime * _rotateSpeed;

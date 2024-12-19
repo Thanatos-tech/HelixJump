@@ -62,19 +62,24 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Tower\Beam.cs" />
     <Compile Include="Assets\Scripts\Ball\Jumper.cs" />
+    <Compile Include="Assets\Scripts\Installers\MonoInstaller.cs" />
+    <Compile Include="Assets\Scripts\Bootstrap\Bootstrap.cs" />
     <Compile Include="Assets\Scripts\Platforms\Platform\Platform.cs" />
+    <Compile Include="Assets\Scripts\Scopes\SceneScope.cs" />
     <Compile Include="Assets\Scripts\Platforms\PlatformSegment\SixtyDegSegment.cs" />
     <Compile Include="Assets\Scripts\Platforms\PlatformSegment\PlatformSegment.cs" />
-    <Compile Include="Assets\Scripts\Platforms\PlatformSegment\SixtyDegSegmentEffect.cs" />
     <Compile Include="Assets\Scripts\Ball\Ball.cs" />
+    <Compile Include="Assets\Scripts\Tower\ITowerConfig.cs" />
     <Compile Include="Assets\Scripts\Tower\TowerConfig.cs" />
+    <Compile Include="Assets\Scripts\Scopes\CustomScope.cs" />
     <Compile Include="Assets\Scripts\Camera\BallTracker.cs" />
     <Compile Include="Assets\Scripts\Platforms\StartPlatform\StartPlatform.cs" />
-    <Compile Include="Assets\Scripts\Platforms\PlatformSegment\NinetyDegSegmentEffect.cs" />
+    <Compile Include="Assets\Scripts\Installers\GameInstaller.cs" />
     <Compile Include="Assets\Scripts\Platforms\EndPlatform\EndPlatform.cs" />
     <Compile Include="Assets\Scripts\Tower\Rotator.cs" />
     <Compile Include="Assets\Scripts\Platforms\PlatformSegment\NinetyDegSegment.cs" />
     <Compile Include="Assets\Scripts\Tower\Builder.cs" />
+    <Compile Include="Assets\Scripts\Scopes\GameScope.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -401,12 +406,16 @@
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -913,8 +922,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\UniTask.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ProBuilder">
@@ -927,6 +944,14 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>Library\ScriptAssemblies\UniTask.DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>Library\ScriptAssemblies\UniTask.Addressables.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -949,12 +974,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="VContainer">
+      <HintPath>Library\ScriptAssemblies\VContainer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>Library\ScriptAssemblies\UniTask.Linq.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
@@ -963,6 +996,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VContainer.Editor">
+      <HintPath>Library\ScriptAssemblies\VContainer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">
@@ -1009,12 +1046,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UniTask">
+      <HintPath>Library\ScriptAssemblies\UniTask.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

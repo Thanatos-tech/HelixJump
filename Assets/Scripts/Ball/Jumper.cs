@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -8,6 +6,7 @@ public class Jumper : MonoBehaviour
     [SerializeField] private float _jumpForce;
 
     private Rigidbody _rigidbody;
+    private Vector3 CalculatedForce => _jumpForce * Vector3.up;
 
     private void Start()
     {
@@ -19,7 +18,7 @@ public class Jumper : MonoBehaviour
         if(collision.gameObject.TryGetComponent(out PlatformSegment platformSegment))
         {
             _rigidbody.velocity = Vector3.zero;
-            _rigidbody.AddForce(Vector3.up * _jumpForce, ForceMode.Impulse);
+            _rigidbody.AddForce(CalculatedForce, ForceMode.Impulse);
         }
     }
 }
