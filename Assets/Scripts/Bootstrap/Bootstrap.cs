@@ -5,7 +5,7 @@ public class Bootstrap : MonoBehaviour
 {
     [SerializeField] private string _mainSceneName;
 
-    private void Start()
+    public void LoadScene()
     {
         SceneManager.LoadScene(_mainSceneName);
     }

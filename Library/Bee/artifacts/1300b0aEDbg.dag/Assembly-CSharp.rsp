@@ -375,7 +375,7 @@
 "Assets/Scripts/Ball/Ball.cs"
 "Assets/Scripts/Ball/Jumper.cs"
 "Assets/Scripts/Bootstrap/Bootstrap.cs"
-"Assets/Scripts/Camera/BallTracker.cs"
+"Assets/Scripts/Camera/CameraController.cs"
 "Assets/Scripts/Installers/GameInstaller.cs"
 "Assets/Scripts/Installers/MonoInstaller.cs"
 "Assets/Scripts/Platforms/EndPlatform/EndPlatform.cs"

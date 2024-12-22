@@ -3,56 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\HelixJump\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|c:\\users\\administrator\\helixjump\\assets\\scripts\\camera\\virtualcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\virtualcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|c:\\users\\administrator\\helixjump\\assets\\scripts\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\ball\\jumper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\jumper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platform\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platform\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\towerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\towerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|c:\\users\\administrator\\helixjump\\assets\\scripts\\bootstrap\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bootstrap\\bootstrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\rotator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\sixtydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\sixtydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\ball\\jumper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\jumper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\scopes\\customscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scopes\\customscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\itowerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\itowerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\scopes\\gamescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scopes\\gamescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\scopes\\scenescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scopes\\scenescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\camera\\balltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\balltracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\scopes\\gamescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scopes\\gamescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\scopes\\customscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scopes\\customscope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\sixtydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\sixtydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\platformsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\platformsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\startplatform\\startplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\startplatform\\startplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\towerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\towerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\ninetydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\ninetydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platform\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platform\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\installers\\monoinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\installers\\gameinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\platformsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\platformsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\tower\\itowerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tower\\itowerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\platforms\\platformsegment\\ninetydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platforms\\platformsegment\\ninetydegsegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\HelixJump\\assets\\scripts\\ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A0501D-E427-D9F7-20E3-CE7643F1072D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ball\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,21 +86,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VirtualCamera.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\VirtualCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\VirtualCamera.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\VirtualCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\VirtualCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T11:06:33.013Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -111,200 +102,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BallTracker.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\BallTracker.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\BallTracker.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\BallTracker.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera\\BallTracker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\SliderController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\SliderController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SliderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:46:02.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SceneScope.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\SceneScope.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\SceneScope.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\SceneScope.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scopes\\SceneScope.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:43.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameScope.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\GameScope.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\GameScope.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\GameScope.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scopes\\GameScope.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:42.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CustomScope.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\CustomScope.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\CustomScope.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\CustomScope.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Scopes\\CustomScope.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:44:41.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SixtyDegSegment.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:06:55.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Rotator.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Rotator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\Rotator.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Rotator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tower\\Rotator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:45:34.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TowerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\TowerConfig.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\TowerConfig.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\TowerConfig.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tower\\TowerConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T07:43:06.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Platform.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T12:45:36.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ball.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Ball.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\Ball.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Ball.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ball\\Ball.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:09:25.255Z",
+              "WhenOpened": "2024-12-22T09:14:43.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Jumper.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Jumper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\Jumper.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Jumper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ball\\Jumper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Title": "Bootstrap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Bootstrap\\Bootstrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bootstrap\\Bootstrap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Bootstrap\\Bootstrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bootstrap\\Bootstrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T05:57:18.657Z",
+              "WhenOpened": "2024-12-20T10:11:32.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "StartPlatform.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Camera\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:07:01.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T12:30:13.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Builder.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Builder.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\Builder.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Builder.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tower\\Builder.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:10:33.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\GameInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\GameInstaller.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\GameInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\GameInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:46:27.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MonoInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\MonoInstaller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\MonoInstaller.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\MonoInstaller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Installers\\MonoInstaller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T06:46:28.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ITowerConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\ITowerConfig.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\ITowerConfig.cs",
-              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\ITowerConfig.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tower\\ITowerConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T07:46:35.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "PlatformSegment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\PlatformSegment.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\PlatformSegment\\PlatformSegment.cs",
@@ -316,15 +152,183 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
+              "Title": "SixtyDegSegment.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Platforms\\PlatformSegment\\SixtyDegSegment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:06:55.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomScope.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\CustomScope.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\CustomScope.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\CustomScope.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scopes\\CustomScope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:41.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameScope.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\GameScope.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\GameScope.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\GameScope.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scopes\\GameScope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:42.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneScope.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\SceneScope.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scopes\\SceneScope.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Scopes\\SceneScope.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scopes\\SceneScope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:44:43.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Builder.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Builder.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\Builder.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Builder.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower\\Builder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T07:10:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITowerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\ITowerConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\ITowerConfig.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\ITowerConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower\\ITowerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:46:35.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Jumper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Jumper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\Jumper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Jumper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball\\Jumper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:57:18.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rotator.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Rotator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\Rotator.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\Rotator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower\\Rotator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:45:34.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StartPlatform.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Platforms\\StartPlatform\\StartPlatform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:07:01.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "NinetyDegSegment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\NinetyDegSegment.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\PlatformSegment\\NinetyDegSegment.cs",
               "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\PlatformSegment\\NinetyDegSegment.cs",
               "RelativeToolTip": "Assets\\Scripts\\Platforms\\PlatformSegment\\NinetyDegSegment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T13:37:01.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TowerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\TowerConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tower\\TowerConfig.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Tower\\TowerConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tower\\TowerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:43:06.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Platforms\\Platform\\Platform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:45:36.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MonoInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\MonoInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\MonoInstaller.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\MonoInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\MonoInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:46:28.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Installers\\GameInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:46:27.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Ball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ball\\Ball.cs",
+              "ToolTip": "C:\\Users\\Administrator\\HelixJump\\Assets\\Scripts\\Ball\\Ball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ball\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:09:25.255Z"
             }
           ]
         }
